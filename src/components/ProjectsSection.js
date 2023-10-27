@@ -52,7 +52,7 @@ const ProjectsSection = () => {
             key={project.title}
             title={project.title}
             description={project.description}
-            imageSrc={project.getImageSrc()}
+            imgSrc={project.getImageSrc()}
           />
         ))}
       </Box>
@@ -61,3 +61,4 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+

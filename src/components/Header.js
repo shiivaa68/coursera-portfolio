@@ -1,12 +1,13 @@
 import React from "react";
-import {
-  faGithub,
-  faLinkedin,
-  faMedium,
-  faStackOverflow,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faBarcode,
+  fa0,
+  faWind,
+  faWarehouse,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
 const socials = [
@@ -15,19 +16,19 @@ const socials = [
     url: "mailto: hello@example.com",
   },
   {
-    icon: faGithub,
+    icon: faWind,
     url: "https://github.com",
   },
   {
-    icon: faLinkedin,
+    icon: fa0,
     url: "https://www.linkedin.com",
   },
   {
-    icon: faMedium,
+    icon: faWarehouse,
     url: "https://medium.com",
   },
   {
-    icon: faStackOverflow,
+    icon: faBarcode,
     url: "https://stackoverflow.com",
   },
 ];
