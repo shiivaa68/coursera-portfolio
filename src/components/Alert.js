@@ -9,7 +9,7 @@ import { useAlertContext } from "../context/alertContex";
 import { useRef } from "react";
 
 function Alert() {
-  const { isOpen, type, message, onClode } = useAlertContext();
+  const { isOpen, type, message, onclose } = useAlertContext();
   const cancelRef = useRef();
   const isSuccess = type === "success";
 
