@@ -9,7 +9,7 @@ import { useAlertContext } from "../context/alertContex";
 import { useRef } from "react";
 
 function Alert() {
-  const { isOpen, type, message, onclose } = useAlertContext();
+  const { isOpen, type, message, onClose } = useAlertContext();
   const cancelRef = useRef();
   const isSuccess = type === "success";
 
@@ -17,7 +17,7 @@ function Alert() {
     <AlertDialog
       isOpen={isOpen}
       leastDestructiveRef={cancelRef}
-      onClose={onclose}
+      onClose={onClose}
     >
       <AlertDialogOverlay>
         <AlertDialogContent

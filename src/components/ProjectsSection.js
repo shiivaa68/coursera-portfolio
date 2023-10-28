@@ -52,7 +52,8 @@ const ProjectsSection = () => {
             key={project.title}
             title={project.title}
             description={project.description}
-            imgSrc={project.getImageSrc()}
+            url=""
+            imageSrc={project.getImageSrc()}
           />
         ))}
       </Box>
